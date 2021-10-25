@@ -37,4 +37,4 @@ if __name__ == '__main__':
     user2 = User(2, 'Shivam', 102)
     userdetail = UserDetails()
     print(userdetail.checkTotalUser())
-    print(f'Total users are {user1.getCount()}')
+    print('Total users are ',user1.getCount())
