@@ -35,7 +35,6 @@ class UserDetails:
 if __name__ == '__main__':
     user1 = User(1, 'Puja', 101)
     user2 = User(2, 'Shivam', 102)
-    user3 = User(3, 'Bhawana', 103)
     userdetail = UserDetails()
     print(userdetail.checkTotalUser())
-    print(f'Total users are {user3.getCount()}')
+    print(f'Total users are {user1.getCount()}')
